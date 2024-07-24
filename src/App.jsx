@@ -6,6 +6,7 @@ import ConditionalVariable from "./components/ConditioalVariable";
 import ConditonalTernary from "./components/ConditionalTernary";
 import Counter from "./components/Counter";
 import Emails from "./components/Emails";
+import Form from "./components/Form";
 
 function App() {
   const person = {
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <>
-      <Counter />
+      <Form />
     </>
   );
 }
